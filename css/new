@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Osho, Joshua, Theman, themanOsho, JOSHUA, OSHO, Web Designer, Web Developer,ThemnaOsho">
+    <meta name="keywords"
+        content="Osho, Joshua, Theman, themanOsho, JOSHUA, OSHO, Web Designer, Web Developer,ThemnaOsho">
+    <link rel="icon" href="images/joshua.png" type="image/x-icon">
+    <title>Joshua Osho | Portfolio</title>
+    <!-- v 2.0 -->
+    <link rel="stylesheet" href="css/4/w3.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+</head>
+
+<body id="bodyColor">
+    <div class="w3-container w3-padding-large w3-card-4 w3-center" style="margin: auto; width: 80%;">
+        <i class="fa fa-spinner fa-spin w3-xlarge"></i>
+        <P class="w3-small"><i>I apologize for any inconvenience caused. I'm currently in the process of making
+                improvements and appreciate your patience. Please bear with me while i work on it.
+                Kindly check back soon for the updated version. Thank you for your understanding.</i></P>
+            
+        <h6 class="w3-small w3-margin"
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <i class="fa-solid fa fa-copyright w3-small"></i> 2023. <b>Joshua Osho</b></h6>
+    </div>
+    <script src="https://kit.fontawesome.com/c75a29d236.js" crossorigin="anonymous"></script><!-- Fa fa Icons -->
+    <!-- Header/Home Large Screens (Hidden on small and medium screesn) -->
+    <header id="home" class="w3-container w3-hide-small w3-hide-medium" style=" height: fit-content;">
+        <div id="darkMode" class="w3-bar w3-round-xxlarge w3-border-none w3-margin" data-aos="zoom-out-down "
+            style="width: fit-content;">
+            <button class="w3-bar-item w3-button w3-white w3-hover-white"
+                onclick="w3.removeClass('#bodyColor','darkMode')"><i class="fa fa-sun-o"></i></button>
+            <button class="w3-bar-item w3-button w3-black w3-hover-black"
+                onclick="w3.addClass('#bodyColor','darkMode')"><i class="fa fa-moon-o"></i></button>
+        </div>
+        <div class="w3-row-padding" style="border-radius: 0px 0px 15% 15%;">
+            <div class="w3-half w3-mobile" style="width: 50%; padding: 5% 5%; margin-left: 8%;">
+                <h1 class="w3-xxlarge w3-text-cyan" data-aos="slide-up"
+                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                    <b>I CREATES MODERN<br> & USER-FRIENDLY WEBSITE</b>
+                </h1>
+                <p class="w3-justify" data-aos="zoom-in-up"
+                    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Motivated student of Computer Science seeking hands-on experience in frontend web development.
+                    Exceptionally well-organized and detail-oriented.
+                    I'm open to Freelance, Contract, Part-Time & Full Time opportunities.
+                </p>
+                <a class="headerBtn w3-btn w3-large w3-padding-large w3-round-xlarge w3-margin w3-black w3-text-cyan w3-border w3-border-white"
+                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: fit-content;"
+                    data-aos="slide-right" data-aos-duration="8000" data-aos-once="true" href="files/JOSHUA-OSHO-CV.pdf"
+                    download="JOSHUA OSHO -CV">Resume <i class="fa-solid fa-download"></i></a>
+                <a class="headerBtn w3-btn w3-large w3-padding-large w3-round-xlarge w3-margin w3-black w3-text-cyan w3-border w3-border-white"
+                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: fit-content;"
+                    data-aos="slide-left" data-aos-duration="8000" href="#port">Explore Projects <i
+                        class="fa-solid fa-link"></i></a>
+            </div>
+            <div class="w3-half w3-center w3-mobile" style="width: 40%; padding-top: 3%;" data-aos="zoom-in-up"
+                data-aos-duration="5000">
+                <img src="images/joshua.png" class="w3-image w3-circle" width="50%">
+            </div>
+        </div>
+    </header>
+    <!-- Sticky Header for Mobile phones & tablets -->
+    <header id="top" class="w3-hide-large" style=" height: fit-content;">
+        <div class="w3-top">
+            <div class="headerSmall w3-bar w3-bottombar w3-border-cyan w3-black">
+                <h4 class="w3-bar-item w3-text-cyan" data-aos="zoom-in-right"><b>JOSHUA OSHO</b></h4>
+                <div class="w3-bar w3-right w3-round-xxlarge w3-margin" data-aos="zoom-in-left"
+                    style="width: fit-content;">
+                    <button class="w3-bar-item w3-button w3-white w3-hover-white"
+                        onclick="w3.removeClass('#bodyColor','darkMode')"><i class="fa fa-sun-o"></i></button>
+                    <button class="w3-bar-item w3-button w3-black w3-hover-black"
+                        onclick="w3.addClass('#bodyColor','darkMode')"><i class="fa fa-moon-o"></i></button>
+                </div>
+            </div>
+        </div><br><br><br>
+        <section class="w3-container w3-padding-large">
+            <h1 class="w3-xlarge w3-text-cyan" data-aos="slide-up"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <b>I CREATES MODERN & <br>USER-FRIENDLY WEBSITE</b>
+            </h1>
+            <p class="w3-large w3-margin" data-aos="zoom-in-up"
+                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <b>Motivated student of Computer Science seeking hands-on experience in frontend web development.
+                    Exceptionally well-organized and detail-oriented.
+                    I'm open to Freelance, Contract, Part-Time & Full Time opportunities.</b>
+            </p>
+            <a class="headerBtn w3-btn w3-large w3-padding-large w3-round-xlarge w3-margin w3-black w3-text-cyan w3-border w3-border-white"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: fit-content;"
+                data-aos="slide-right" data-aos-duration="8000" href="files/JOSHUA-OSHO-CV.pdf"
+                download="JOSHUA OSHO -CV">Resume <i class="fa-solid fa-download"></i></a>
+            <a class="headerBtn w3-btn w3-large w3-padding-large w3-round-xlarge w3-margin w3-black w3-text-cyan w3-border w3-border-white"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: fit-content;"
+                data-aos="slide-left" data-aos-duration="8000" href="#port">Explore Projects <i
+                    class="fa-solid fa-link"></i></a>
+        </section>
+    </header>
+    <!-- Sticky Nav Header Large Screens -->
+    <div class="w3-container w3-row-padding w3-black w3-hide-medium w3-hide-small w3-top w3-text-cyan"
+        style="position: sticky; top: 0%; width: 100%; margin: auto; ">
+        <div class="w3-half w3-container" data-aos="zoom-in-right" data-aos-duration="5000" style="margin-top: auto;">
+            <h4 style="margin-left: 25%; margin-top: 3%;"><b>JOSHUA OSHO</b></h4>
+        </div>
+        <div class="w3-half w3-bar w3-container" style="width: 40%;">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" data-aos="zoom-in-left"
+                data-aos-duration="5000" style="width:20%;">
+                <h6><b>Home</b></h6>
+            </a>
+            <a href="#services" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" data-aos="zoom-in-left"
+                data-aos-duration="4000" style="width:20%;" style="width: 20%;">
+                <h6><b>Services</b></h6>
+            </a>
+            <a href="#skills" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" data-aos="zoom-in-left"
+                data-aos-duration="3000" style="width:20%;" style="width: 20%;">
+                <h6><b>Skills</b></h6>
+            </a>
+            <a href="#port" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" data-aos="zoom-in-left"
+                data-aos-duration="2000" style="width:20%;" style="width: 20%;">
+                <h6><b>Work</b></h6>
+            </a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" data-aos="zoom-in-left"
+                data-aos-duration="1000" style="width:20%;" style="width: 20%;">
+                <h6><b>Contact</b></h6>
+            </a>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services" class="w3-container w3-row w3-padding-large w3-margin">
+        <div data-aos="slide-right" data-aos-duration="2000" class="w3-text-cyan w3-leftbar w3-border-cyan"
+            style="margin-left: 10%; margin-top: 5%;">
+            <h4 style="margin-left: 2%;"><b>Services</b></h4>
+        </div>
+        <div class="w3-half services w3-bar-block w3-center w3-mobile">
+            <div class="w3-bar-item w3-mobile" data-aos="zoom-in" data-aos-duration="4000"><i
+                    class="fa-solid fa-laptop-code drop-shadow w3-jumbo w3-margin"></i>
+                <h6 class="w3-text-cyan"><u><b>Web Development</b></u></h6>
+            </div>
+            <div class="w3-bar-item w3-mobile w3-center" data-aos="zoom-in-up"
+                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                I have a strong background in front-end web development, with a particular emphasis on HTML, CSS, and
+                JavaScript. I am skilled at developing interactive websites that are mobile-friendly and compatible with
+                modern browsers. I've also worked with frameworks like Bootstrap to create responsive designs
+                that look great on all devices. Furthermore, I have experience customizing plugins for WordPress
+                sites in order to improve user experiences.
+            </div>
+        </div>
+        <div class="w3-half services w3-bar-block w3-center w3-mobile">
+            <div class="w3-bar-item w3-mobile" data-aos="zoom-in" data-aos-duration="4000"><i
+                    class="fa-solid fa-palette drop-shadow w3-jumbo w3-margin"></i>
+                <h6 class="w3-text-cyan"><u><b>Web Design</b></u></h6>
+            </div>
+            <div class="w3-bar-item w3-mobile w3-center" data-aos="zoom-in-up"
+                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                I have a lot of experience creating user interfaces for websites and web applications as a Front-End Web
+                Designer. My abilities include developing responsive designs that function on a variety of platforms and
+                devices as well as improving the efficiency of current codebases. With my expertise in this field
+                combined with my passion for design excellence, I can help bring your vision to life on the web!
+            </div>
+        </div>
+    </div><!-- End Services -->
+    <!-- Tech Stack -->
+    <div id="skills" class="w3-container w3-padding-large w3-margin">
+        <div class="w3-text-cyan w3-leftbar w3-border-cyan" data-aos="slide-right" data-aos-duration="2000"
+            style="margin-left: 10%; margin-top: 5%;">
+            <h4 style="margin-left: 2%;"><b>Skills</b></h4>
+        </div>
+        <div class="w3-container w3-mobile w3-row-padding" style="width: 80%; margin: auto;">
+            <div class="full-width w3-third w3-mobile w3-center" data-aos="zoom-in-up">
+                <i class="fa-brands fa-html5 w3-text-cyan w3-xlarge w3-margin"></i><span
+                    class="w3-xlarge"><b>HTML</b></span>
+            </div>
+            <div class="full-width w3-third w3-mobile w3-center" data-aos="zoom-in-up">
+                <i class="fa-brands fa-css3 w3-text-cyan w3-xlarge w3-margin"></i><span
+                    class="w3-xlarge"><b>CSS</b></span>
+            </div>
+            <div class="full-width w3-third w3-mobile w3-center" data-aos="zoom-in-up">
+                <i class="fa-brands fa-square-js w3-text-cyan w3-xlarge w3-margin"></i><span
+                    class="w3-xlarge"><b>JavaScript</b></span>
+            </div>
+        </div>
+        <div class="w3-container w3-mobile w3-row-padding" style="width: 70%; margin: auto;">
+            <div class="full-width w3-half w3-mobile w3-center" data-aos="zoom-in-up">
+                <i class="fa-brands fa-bootstrap w3-text-cyan w3-xlarge w3-margin"></i><span
+                    class="w3-xlarge"><b>Bootstrap</b></span>
+            </div>
+            <div class="full-width w3-half w3-mobile w3-center" data-aos="zoom-in-up">
+                <i class="fa-brands fa-wordpress w3-text-cyan w3-xlarge w3-margin"></i><span
+                    class="w3-xlarge"><b>WordPress</b></span>
+            </div>
+        </div>
+    </div><!-- End Tech Stack -->
+    <!-- Script to activate animations on Scroll, data-aos(animation on scroll)="value" -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,  /* set animation duration */
+        });
+    </script>
+    <!-- End Script -->
+    </div>
+    <!-- Portfolio -->
+    <section id="port" class="w3-container w3-padding-large w3-margin">
+        <div class="w3-text-cyan w3-leftbar w3-border-cyan" style="margin-left: 10%; margin-top: 5%;"
+            data-aos="slide-right" data-aos-duration="2000">
+            <h4 style="margin-left: 2%;"><b>Projects</b></h4>
+        </div>
+        <div id="projects" class="w3-row w3-padding w3-mobile" style="width: 80%; margin: auto;">
+            <aside class="full-width w3-half w3-mobile w3-padding-large w3-right-align"
+                style="margin-top: auto; margin-bottom: auto;">
+                <h6 class="w3-text-cyan"><b>Talisha College</b></h6>
+                <p data-aos="zoom-in" data-aos-duration="2000">A fully responsive college website built from scratch
+                    with front-end development technologies.
+                </p>
+                <a class="w3-btn w3-padding w3-card-4 w3-round-xxlarge w3-small w3-cyan"
+                    href="https://talishacollege.netlify.app" target="_blank"><b>Preview</b> <i
+                        class="fa-solid fa-external-link"></i></a>
+            </aside>
+            <aside class="full-width w3-half w3-mobile w3-padding-large" data-aos="zoom-in" data-aos-duration="5000">
+                <img class="w3-image w3-round-xxlarge w3-card-4" src="images/talisha-col-home.JPG" alt="">
+            </aside>
+        </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Contact -->
+    <div id="contact" class="w3-container w3-padding-large w3-margin w3-text-gray">
+        <div class="w3-text-cyan w3-leftbar w3-border-cyan" style="margin-left: 10%; margin-top: 5%;"
+            data-aos="slide-right" data-aos-duration="2000">
+            <h4 style="margin-left: 2%;"><b>Contact</b></h4>
+        </div>
+        <div class="w3-container w3-row w3-padding w3-mobile" style="width: 85%; margin: auto;">
+            <div id="getIntouch" class="w3-third w3-mobile w3-padding">
+                <h3 class="w3-center w3-xxlarge"><b>Get In Touch</b></h3>
+                <p class="w3-center"><b>Contact Me/Send a message</b></p>
+            </div>
+            <div id="getIntouch" class="w3-third w3-center w3-mobile w3-padding-32">
+                <i class="fa-solid fa-envelope w3-xlarge"></i> <br>
+                <a class="w3-btn w3-large w3-hover-none w3-hover-text-gray"
+                    href="mailto:tlkjorsh@icloud.com?subject=Get In Touch&body=Please enter your message"
+                    style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    tlkjorsh@icloud.com</a>
+            </div>
+            <div id="getIntouch" class="w3-third w3-center w3-mobile w3-padding-32">
+                <i class="fa-solid fa-phone w3-xlarge"></i> <span><b>OR</b></span> <i
+                    class="fa-brands fa-whatsapp w3-xlarge"></i><br>
+                <a class="w3-btn w3-large w3-hover-none w3-hover-text-gray" href="tel: +234 904-978-8099"
+                    style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    +234 904-978-8099</a>
+            </div>
+        </div>
+    </div>
+    <div id="contactForm" class="w3-bar-block">
+        <form action="" name="submit-to-google-sheet">
+            <div class="w3-row w3-padding w3-bar-item">
+                <div id="getIntouch" class="w3-half w3-mobile" data-aos="slide-up" data-aos-duration="2000">
+                    <input type="text" name="First Name"
+                        class="w3-input w3-padding-large w3-bottombar w3-border-cyan w3-round-xlarge w3-card-4"
+                        placeholder="First Name" required>
+                </div>
+                <div id="getIntouch" class="w3-half w3-mobile" data-aos="slide-up" data-aos-duration="4000">
+                    <input type="text" name="Last Name"
+                        class="w3-input w3-padding-large w3-bottombar w3-border-cyan w3-round-xlarge w3-card-4"
+                        placeholder="Last Name" required>
+                </div>
+            </div><br>
+            <div class="w3-padding w3-mobile w3-bar-item" data-aos="zoom-in-up" data-aos-duration="5000">
+                <textarea name="Subject"
+                    class="w3-input w3-padding-large w3-bottombar w3-border-cyan w3-round-xlarge w3-card-4"
+                    placeholder="Subject" required></textarea>
+            </div>
+            <div class="w3-padding w3-bar-item">
+                <button type="submit" data-aos="zoom-in-up" data-aos-duration="5000"
+                    class="w3-btn w3-padding-large w3-round-xlarge w3-bottombar w3-border-cyan w3-text-gray w3-card-4"
+                    style="margin-left: auto;">Send</button>
+                <span id="welmsg" class="w3-margin"></span>
+            </div>
+        </form>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyjcyzV1yJedWFTUnz8RFkMEZG67M0XOxCEwQf9hYiq9KT3Gptk04iJuMvBQvxvZ_MuKg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const welmsg = document.getElementById('welmsg')
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        welmsg.innerHTML = "Sent!"
+                        setTimeout(function () {
+                            welmsg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </div>
+    <footer>
+        <div class="w3-container w3-padding-large w3-bar w3-text-cyan" style="width: 80%; margin: auto; ">
+            <h4 class="w3-bar-item"><b>Joshua Osho</b> <br></b><i class="fa-solid fa-location-dot w3-medium"></i> <b class="w3-medium">Lagos,
+                    Nigeria.</b><br> <i class="fa-solid fa-copyright w3-medium"></i> <b class="w3-medium">2023.</b></h4>
+            <div class="w3-bar-item w3-bottombar w3-border-cyan">
+                <a class="w3-btn w3-large w3-hover-none w3-hover-text-gray" href="https://github.com/themanOsho"><i
+                        class="fa fa-github w3-large"></i></a>
+                <a class="w3-btn w3-large w3-hover-none w3-hover-text-gray"
+                    href="https://www.linkedin.com/in/themanosho"><i class="fa fa-linkedin w3-large"></i></a>
+                <a class="w3-btn w3-large w3-hover-none w3-hover-text-gray" href="https://twitter.com/themanOsho"><i
+                        class="fa fa-twitter w3-large"></i></a>
+            </div>
+        </div>
+    </footer><br><br class="w3-hide-large"><br class="w3-hide-large">
+    <footer class="w3-bottom">
+        <div id="footerSmall"
+            class="w3-bar w3-container w3-hide-large w3-padding w3-black w3-topbar w3-border-cyan w3-text-cyan">
+            <a href="#top" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" style="width:20%;"
+                data-aos="slide-right" data-aos-duration="3000"><i class="fa-solid fa-home"></i></a>
+            <a href="#services" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" style="width: 20%;"
+                data-aos="slide-right" data-aos-duration="2000"><i class="fa-solid fa-computer"></i></a>
+            <a href="#skills" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" style="width: 20%;"
+                data-aos="zoom-in" data-aos-duration="2000"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="#port" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" style="width: 20%;"
+                data-aos="slide-left" data-aos-duration="2000"><i class="fa-solid fa-laptop-code"></i></a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-hover-text-gray" style="width: 20%;"
+                data-aos="slide-left" data-aos-duration="3000"><i class="fa-solid fa-user"></i></a>
+        </div> 
+    </footer>
+</body>
+
+</html>

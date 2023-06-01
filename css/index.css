@@ -1,0 +1,84 @@
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    .headerSmall{
+        border-radius: 0 0% 5% 5%;
+    }
+    /* class name for responsive full width items*/
+    @media only screen and (max-width:992px) {
+        /* For mobile phones & tablets: */
+        .full-width {
+            width: 100%;
+        }
+    }
+    #darkMode {
+        position: fixed;
+        top: 10%;
+        right: 10%;
+    }
+    .darkMode {
+        background-color: black;
+        color: white;
+    }
+    
+    @media only screen and (max-width:620px) {
+
+        /* For mobile phones: */
+        .services {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        /* For tablets: */
+        .services {
+            width: 100%;
+        }
+    }
+
+    .drop-shadow {
+        filter: drop-shadow(2px 4px 8px #585858);
+    }
+
+    /* Contact Form */
+    @media only screen and (max-width:768px) {
+        /* For tablets: */
+        #getIntouch {
+            width: 100%;
+        }
+    }
+    #contactForm {
+        width: 80%;
+        margin: auto;
+    }
+
+    input[type=text] {
+        outline: none;
+        caret-color: cyan;
+    }
+
+    input[type=text]:focus {
+        border: none;
+        color: cyan;
+        font-weight: 900;
+        caret-color: cyan;
+    }
+
+    textarea {
+        outline: none;
+        height: 150px;
+        resize: none;
+        caret-color: cyan;
+    }
+
+    textarea:focus {
+        border: none;
+        color: cyan;
+        font-weight: 900;
+        caret-color: cyan;
+    }
+    /* Nav on Mobile phones & Tablets */
+    #footerSmall{
+        border-radius: 5% 5% 0 0;
+    }
