@@ -2,6 +2,9 @@
         box-sizing: border-box;
         scroll-behavior: smooth;
     }
+    div{
+        margin: 0;
+    }
     .headerSmall{
         border-radius: 0 0% 5% 5%;
     }
@@ -10,6 +13,10 @@
         /* For mobile phones & tablets: */
         .full-width {
             width: 100%;
+        }
+        .some-full-width{
+            width: 100%;
+            text-align: center;
         }
     }
     #darkMode {
