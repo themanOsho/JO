@@ -37,5 +37,8 @@
         background: teal;
         border-radius: 10px;
       }
-  
-    
+      @media print {
+        body {
+          display: none;
+        }
+      }
